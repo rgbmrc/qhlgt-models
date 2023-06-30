@@ -1,4 +1,4 @@
-# HLGT-models: Hamiltonian Lattice Gauge Theory models database
+# QHLGT-models: Quantum Hamiltonian Lattice Gauge Theory models database
 
 Collection of input data for simulating HLGT models within TN or quantum technologies [1].
 
