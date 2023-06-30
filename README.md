@@ -32,5 +32,17 @@ Check model specific README files more details.
 [Tensor network simulation of an SU(3) lattice gauge theory in 1D](https://doi.org/10.1103/PhysRevD.100.074512)
 
 
+## Content:
+
+### Software:
+- `constrained-composite-site`: 
+
+    computational spaces constructed as a subspace of the tensor product of some "elementary" degrees of freedom
+    
+    ```
+    pip install ./constrained-composite-site
+    ```
+
+
 ## Attribution:
 If you use any of the content in this repository, please credit the authors according to the instructions in model specific README or CITATION files.

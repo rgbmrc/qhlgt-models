@@ -1,0 +1,3 @@
+[submodule "constrained-composite-site"]
+	path = constrained-composite-site
+	url = https://github.com/rgbmrc/constrained-composite-site.git
