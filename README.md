@@ -34,6 +34,9 @@ Check model specific README files more details.
 
 ## Content:
 
+### Models:
+- `1D-SU3-2flavor-2level`: (1+1)D 2-flavor maximally truncated QCD
+
 ### Software:
 - `constrained-composite-site`: 
 
