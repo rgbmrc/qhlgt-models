@@ -1,0 +1,66 @@
+A +1.0
+B +1/sqrt(3)
+C +1/sqrt(6)
+D -1/sqrt(6)
+E +1/(2*sqrt(3))
+F -1/(2*sqrt(3))
+G +1/(2*sqrt(6))
+H +1/3
+X +1/(2*sqrt(2))
+Y +1/(3*sqrt(2))
+Z -1/(6*sqrt(2))
+
+A R:k L:k
+B R:r L:c, B R:g L:m, B R:b L:y
+B R:c L:r, B R:m L:g, B R:y L:b
+B R:k L:c dr, B R:k L:m dg, B R:k L:y db
+C R:r L:g db, D R:r L:b dg, C R:g L:b dr, D R:g L:r db, C R:b L:r dg, D R:b L:g dr
+B R:c L:k dr, B R:m L:k dg, B R:y L:k db
+B R:k L:c ur, B R:k L:m ug, B R:k L:y ub
+C R:r L:g ub, D R:r L:b ug, C R:g L:b ur, D R:g L:r ub, C R:b L:r ug, D R:b L:g ur
+B R:c L:k ur, B R:m L:k ug, B R:y L:k ub
+C R:c L:c ur dr, G R:c L:m ur dg, G R:c L:m ug dr, G R:m L:c ur dg, G R:m L:c ug dr, C R:m L:m ug dg, G R:m L:y ug db, G R:m L:y ub dg, G R:y L:m ug db, G R:y L:m ub dg, C R:y L:y ub db, G R:y L:c ub dr, G R:y L:c ur db, G R:c L:y ub dr, G R:c L:y ur db
+B R:k L:r dg db, B R:k L:g db dr, B R:k L:b dr dg
+B R:r L:k dg db, B R:g L:k db dr, B R:b L:k dr dg
+C R:c L:m dr dg, D R:m L:c dr dg, C R:m L:y dg db, D R:y L:m dg db, C R:y L:c db dr, D R:c L:y db dr
+C R:k L:r ug db, D R:k L:r ub dg, C R:k L:g ub dr, D R:k L:g ur db, C R:k L:b ur dg, D R:k L:b ug dr
+C R:r L:k ug db, D R:r L:k ub dg, C R:g L:k ub dr, D R:g L:k ur db, C R:b L:k ur dg, D R:b L:k ug dr
+E R:c L:m ur dg, F R:c L:m ug dr, F R:m L:c ur dg, E R:m L:c ug dr, E R:m L:y ug db, F R:m L:y ub dg, F R:y L:m ug db, E R:y L:m ub dg, E R:y L:c ub dr, F R:y L:c ur db, F R:c L:y ub dr, E R:c L:y ur db
+B R:k L:r ug ub, B R:k L:g ub ur, B R:k L:b ur ug
+B R:r L:k ug ub, B R:g L:k ub ur, B R:b L:k ur ug
+C R:c L:m ur ug, D R:m L:c ur ug, C R:m L:y ug ub, D R:y L:m ug ub, C R:y L:c ub ur, D R:c L:y ub ur
+X R:r L:m ug dg db, X R:r L:y ub dg db, Y R:r L:c ur dg db, Z R:r L:c ug db dr, Z R:r L:c ub dr dg, X R:g L:y ub db dr, X R:g L:c ur db dr, Y R:g L:m ug db dr, Z R:g L:m ub dr dg, Z R:g L:m ur dg db, X R:b L:c ur dr dg, X R:b L:m ug dr dg, Y R:b L:y ub dr dg, Z R:b L:y ur dg db, Z R:b L:y ug db dr
+X R:m L:r ug dg db, X R:y L:r ub dg db, Y R:c L:r ur dg db, Z R:c L:r ug db dr, Z R:c L:r ub dr dg, X R:y L:g ub db dr, X R:c L:g ur db dr, Y R:m L:g ug db dr, Z R:m L:g ub dr dg, Z R:m L:g ur dg db, X R:c L:b ur dr dg, X R:m L:b ug dr dg, Y R:y L:b ub dr dg, Z R:y L:b ur dg db, Z R:y L:b ug db dr
+X R:r L:m ug ub dg, X R:r L:y ug ub db, Y R:r L:c ug ub dr, Z R:r L:c ub ur dg, Z R:r L:c ur ug db, X R:g L:y ub ur db, X R:g L:c ub ur dr, Y R:g L:m ub ur dg, Z R:g L:m ur ug db, Z R:g L:m ug ub dr, X R:b L:c ur ug dr, X R:b L:m ur ug dg, Y R:b L:y ur ug db, Z R:b L:y ug ub dr, Z R:b L:y ub ur dg
+X R:m L:r ug ub dg, X R:y L:r ug ub db, Y R:c L:r ug ub dr, Z R:c L:r ub ur dg, Z R:c L:r ur ug db, X R:y L:g ub ur db, X R:c L:g ub ur dr, Y R:m L:g ub ur dg, Z R:m L:g ur ug db, Z R:m L:g ug ub dr, X R:c L:b ur ug dr, X R:m L:b ur ug dg, Y R:y L:b ur ug db, Z R:y L:b ug ub dr, Z R:y L:b ub ur dg
+A R:k L:k dr dg db
+B R:r L:c dr dg db, B R:g L:m dr dg db, B R:b L:y dr dg db
+B R:c L:r dr dg db, B R:m L:g dr dg db, B R:y L:b dr dg db
+B R:k L:k ur dg db, B R:k L:k ug db dr, B R:k L:k ub dr dg
+H R:r L:c ur dg db, H R:r L:c ug db dr, H R:r L:c ub dr dg, H R:g L:m ur dg db, H R:g L:m ug db dr, H R:g L:m ub dr dg, H R:b L:y ur dg db, H R:b L:y ug db dr, H R:b L:y ub dr dg
+H R:c L:r ur dg db, H R:c L:r ug db dr, H R:c L:r ub dr dg, H R:m L:g ur dg db, H R:m L:g ug db dr, H R:m L:g ub dr dg, H R:y L:b ur dg db, H R:y L:b ug db dr, H R:y L:b ub dr dg
+B R:k L:k ur ug db, B R:k L:k ug ub dr, B R:k L:k ub ur dg
+H R:r L:c ur ug db, H R:r L:c ug ub dr, H R:r L:c ub ur dg, H R:g L:m ur ug db, H R:g L:m ug ub dr, H R:g L:m ub ur dg, H R:b L:y ur ug db, H R:b L:y ug ub dr, H R:b L:y ub ur dg
+H R:c L:r ur ug db, H R:c L:r ug ub dr, H R:c L:r ub ur dg, H R:m L:g ur ug db, H R:m L:g ug ub dr, H R:m L:g ub ur dg, H R:y L:b ur ug db, H R:y L:b ug ub dr, H R:y L:b ub ur dg
+A R:k L:k ur ug ub
+B R:r L:c ur ug ub, B R:g L:m ur ug ub, B R:b L:y ur ug ub
+B R:c L:r ur ug ub, B R:m L:g ur ug ub, B R:y L:b ur ug ub
+C R:r L:r ug ub dg db, G R:r L:g ug ub db dr, G R:r L:g ub ur dg db, G R:g L:r ug ub db dr, G R:g L:r ub ur dg db, C R:g L:g ub ur db dr, G R:g L:b ub ur dr dg, G R:g L:b ur ug db dr, G R:b L:g ub ur dr dg, G R:b L:g ur ug db dr, C R:b L:b ur ug dr dg, G R:b L:r ur ug dg db, G R:b L:r ug ub dr dg, G R:r L:b ur ug dg db, G R:r L:b ug ub dr dg
+B R:k L:c ur dr dg db, B R:k L:m ug dr dg db, B R:k L:y ub dr dg db
+C R:r L:g ub dr dg db, D R:r L:b ug dr dg db, C R:g L:b ur dr dg db, D R:g L:r ub dr dg db, C R:b L:r ug dr dg db, D R:b L:g ur dr dg db
+B R:c L:k ur dr dg db, B R:m L:k ug dr dg db, B R:y L:k ub dr dg db
+C R:k L:c ur ug db dr, D R:k L:c ub ur dr dg, C R:k L:m ug ub dr dg, D R:k L:m ur ug dg db, C R:k L:y ub ur dg db, D R:k L:y ug ub db dr
+E R:g L:b ub ur dr dg, F R:g L:b ur ug db dr, F R:b L:g ub ur dr dg, E R:b L:g ur ug db dr, E R:b L:r ur ug dg db, F R:b L:r ug ub dr dg, F R:r L:b ur ug dg db, E R:r L:b ug ub dr dg, E R:r L:g ug ub db dr, F R:r L:g ub ur dg db, F R:g L:r ug ub db dr, E R:g L:r ub ur dg db
+C R:c L:k ur ug db dr, D R:c L:k ub ur dr dg, C R:m L:k ug ub dr dg, D R:m L:k ur ug dg db, C R:y L:k ub ur dg db, D R:y L:k ug ub db dr
+B R:k L:c ur ug ub dr, B R:k L:m ur ug ub dg, B R:k L:y ur ug ub db
+C R:r L:g ur ug ub db, D R:r L:b ur ug ub dg, C R:g L:b ur ug ub dr, D R:g L:r ur ug ub db, C R:b L:r ur ug ub dg, D R:b L:g ur ug ub dr
+B R:c L:k ur ug ub dr, B R:m L:k ur ug ub dg, B R:y L:k ur ug ub db
+B R:k L:r ug ub dr dg db, B R:k L:g ub ur dr dg db, B R:k L:b ur ug dr dg db
+B R:r L:k ug ub dr dg db, B R:g L:k ub ur dr dg db, B R:b L:k ur ug dr dg db
+C R:c L:m ur ug dr dg db, D R:m L:c ur ug dr dg db, C R:m L:y ug ub dr dg db, D R:y L:m ug ub dr dg db, C R:y L:c ub ur dr dg db, D R:c L:y ub ur dr dg db
+B R:k L:r ur ug ub dg db, B R:k L:g ur ug ub db dr, B R:k L:b ur ug ub dr dg
+B R:r L:k ur ug ub dg db, B R:g L:k ur ug ub db dr, B R:b L:k ur ug ub dr dg
+C R:c L:m ur ug ub dr dg, D R:m L:c ur ug ub dr dg, C R:m L:y ur ug ub dg db, D R:y L:m ur ug ub dg db, C R:y L:c ur ug ub db dr, D R:c L:y ur ug ub db dr
+A R:k L:k ur ug ub dr dg db
+B R:r L:c ur ug ub dr dg db, B R:g L:m ur ug ub dr dg db, B R:b L:y ur ug ub dr dg db
+B R:c L:r ur ug ub dr dg db, B R:m L:g ur ug ub dr dg db, B R:y L:b ur ug ub dr dg db
