@@ -38,11 +38,10 @@ Check model specific README files more details.
 - `1D-SU3-2flavor-2level`: (1+1)D 2-flavor hardcore QCD
 
 ### Software:
-- `constrained-composite-site`: 
-
-    computational spaces constructed as a subspace of the tensor product of some "elementary" degrees of freedom
+- `constrained-composite-site`: computational spaces as subspace of the tensor product of "elementary" degrees of freedom
     
     ```
+    git submodule update --init
     pip install ./constrained-composite-site
     ```
 
