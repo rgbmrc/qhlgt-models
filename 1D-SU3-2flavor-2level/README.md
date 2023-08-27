@@ -20,3 +20,5 @@ The gauge space is truncated to the preimage of the 2 lowest Casimir eigenvalues
     - `basis.txt` gauge invariant local computational basis
 
 ## Attribution:
+If you use the code or the artifacts in this folder please cite 
+M. Rigobello, G. Magnifico, P. Silvi and S. Montangero, _Hadrons in (1+1)D Hamiltonian hardcore lattice QCD_, [arXiv:2308.04488](https://arxiv.org/abs/2308.04488) (2023).
