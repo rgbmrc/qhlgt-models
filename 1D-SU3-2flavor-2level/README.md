@@ -1,6 +1,6 @@
 # 1D-SU3-2flavor-2level
 
-(1+1)D 2-flavor maximally truncated QCD
+(1+1)D 2-flavor hardcore QCD
 
 ## model:
 - SU(3)-color gauge group
