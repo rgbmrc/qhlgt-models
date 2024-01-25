@@ -63,7 +63,6 @@ diag_mels |= {
     "Nlnk": np.count_nonzero(basis_qnums[:2], 0),
     "JW": 1 - 2 * (basis_qnums[2:].sum(0) % 2),
 }
-diag_mels |= {f * 2: basis_qnums[..., 2 + i] for i, f in enumerate(flavors)}
 diag_mels |= {
     r * 2: np.exp(1.0j * 2 / 3 * np.pi * basis_qnums[i]) for i, r in enumerate(rishons)
 }
