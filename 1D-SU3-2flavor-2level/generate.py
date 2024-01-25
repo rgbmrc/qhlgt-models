@@ -30,7 +30,7 @@ def get_qnums(label):
 
 
 basis_qnums = [list(set(get_qnums(lbl))) for lbl in labels]
-basis_qnums = np.squeeze(basis_qnums)
+basis_qnums = np.squeeze(basis_qnums).T
 
 # endregion
 
@@ -60,13 +60,12 @@ liquid_ops |= {
 
 diag_mels = dict(zip(("Rlnk", "Llnk", "Nu", "Nd"), basis_qnums))
 diag_mels |= {
-    "Nlnk": np.count_nonzero(basis_qnums[..., :2], 1),
-    "JW": 1 - 2 * (basis_qnums[..., 2:].sum(1) % 2),
+    "Nlnk": np.count_nonzero(basis_qnums[:2], 0),
+    "JW": 1 - 2 * (basis_qnums[2:].sum(0) % 2),
 }
 diag_mels |= {f * 2: basis_qnums[..., 2 + i] for i, f in enumerate(flavors)}
 diag_mels |= {
-    r * 2: np.exp(1.0j * 2 / 3 * np.pi * basis_qnums[..., i])
-    for i, r in enumerate(rishons)
+    r * 2: np.exp(1.0j * 2 / 3 * np.pi * basis_qnums[i]) for i, r in enumerate(rishons)
 }
 diag_mels |= {r * 2 + "_hc": diag_mels[r * 2].conj() for r in rishons}
 diag_mels = {k: sp.diags(d) for k, d in diag_mels.items()}
